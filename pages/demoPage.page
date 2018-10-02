@@ -1,0 +1,14 @@
+<apex:page standardStylesheets="false">
+    <head>
+        <style>
+             .center{text-align:center;
+             }
+             .left{float:left;}
+        </style>
+    </head>
+  <h1 class ="center"> Congratulations</h1>
+  <p class = "center">Welcome <b>{!$User.FirstName} {!$User.LastName}</b> to First Demo Page </p>
+  <div class = "center">
+      <apex:image url="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRACVO6G7Gs5S-E4PbcqmQW8Gx30nHYXMigekwEagZzY8pooqk" width="300px" height="300px" />
+  </div>
+</apex:page>
